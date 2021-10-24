@@ -13,7 +13,7 @@ const Sidebar = ({isSidebarShow, setIsSidebarShow}) => {
         </button>
             <ul className={isSidebarShow ? styles.show : ''}>
                 {menu.map(title => (
-                    <li>{title}</li>
+                    <li><a> {title} </a></li>
                 ))}
             </ul>
         </div>
